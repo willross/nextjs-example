@@ -1,0 +1,23 @@
+// This works, but doesn't allow changing locales, due to "en" being hardcoded.
+// Renamed to ".babelrc.backup" so that Next doesn't use it, because for dynamic locales we need to configure it in next.config.js
+
+//{
+//  "presets": ["next/babel"],
+//  "plugins": [
+//    [
+//      "inline-i18n-messages",
+//      {
+//        "locale": "en",
+//        "extractKeysType": "formatjs",
+//        "getMessageFile": "./i18n/getMessage.js",
+//        "addMessagesSource": "i18n/addMessages.js"
+//      }
+//    ],
+//    ["module-resolver", {
+//      "root": ["./"],
+//      "alias": {
+//        "i18n": "./i18n"
+//      }
+//    }]
+//  ]
+//}
